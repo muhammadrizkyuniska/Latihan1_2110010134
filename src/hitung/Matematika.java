@@ -15,8 +15,20 @@ public class Matematika {
     }
     
 //    membuat method setPenjumlahan
-    double setPenjumlahan (){
+    public double setPenjumlahan (){
         return bil1 + bil2;
+    }
+    
+    public double setPengurangan(){
+        return bil1 - bil2;
+    }
+    
+    public double setPerkalian(){
+        return bil1 * bil2;
+    }
+    
+    public double setPembagian(){
+        return bil1 / bil2;
     }
     
 }
